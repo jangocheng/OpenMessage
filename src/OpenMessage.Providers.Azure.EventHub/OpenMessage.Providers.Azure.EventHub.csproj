@@ -11,6 +11,7 @@
   </PropertyGroup>
 
   <ItemGroup>
+    <ProjectReference Include="..\OpenMessage.Providers.Azure\OpenMessage.Providers.Azure.csproj" />
     <ProjectReference Include="..\OpenMessage\OpenMessage.csproj" />
   </ItemGroup>
   

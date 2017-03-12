@@ -36,6 +36,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "OpenMessage.Samples.BasicMe
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "OpenMessage.Providers.Azure.EventHub", "src\OpenMessage.Providers.Azure.EventHub\OpenMessage.Providers.Azure.EventHub.csproj", "{5439445D-1ABD-4D8E-A340-AEB93FDA2B19}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "OpenMessage.Providers.Azure.ServiceBus", "src\OpenMessage.Providers.Azure.ServiceBus\OpenMessage.Providers.Azure.ServiceBus.csproj", "{AC7F4364-DF26-45D4-96E3-A560DC266873}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -86,6 +88,10 @@ Global
 		{5439445D-1ABD-4D8E-A340-AEB93FDA2B19}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{5439445D-1ABD-4D8E-A340-AEB93FDA2B19}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{5439445D-1ABD-4D8E-A340-AEB93FDA2B19}.Release|Any CPU.Build.0 = Release|Any CPU
+		{AC7F4364-DF26-45D4-96E3-A560DC266873}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{AC7F4364-DF26-45D4-96E3-A560DC266873}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{AC7F4364-DF26-45D4-96E3-A560DC266873}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{AC7F4364-DF26-45D4-96E3-A560DC266873}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -102,5 +108,6 @@ Global
 		{AC88443B-E445-4751-B160-62C74A54F3EF} = {B4E58D4F-40CD-45CA-AC6F-1DF4D9CB9A49}
 		{0419A1DA-431A-4406-82EB-7D634F9F0B86} = {B4CC2690-ADC2-4B78-A961-06C0D6CD948F}
 		{5439445D-1ABD-4D8E-A340-AEB93FDA2B19} = {E8751802-CCE4-4C40-9241-E5E01DBEF627}
+		{AC7F4364-DF26-45D4-96E3-A560DC266873} = {E8751802-CCE4-4C40-9241-E5E01DBEF627}
 	EndGlobalSection
 EndGlobal

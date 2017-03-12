@@ -1,7 +1,7 @@
 ﻿using FluentAssertions;
 using Microsoft.Extensions.Options;
 using Moq;
-using OpenMessage.Providers.Azure.Configuration;
+using OpenMessage.Providers.Azure.ServiceBus.Configuration;
 using System;
 using Xunit;
 

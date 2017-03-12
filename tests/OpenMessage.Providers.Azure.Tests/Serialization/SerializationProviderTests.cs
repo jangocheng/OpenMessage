@@ -1,6 +1,6 @@
 ﻿using FluentAssertions;
 using Moq;
-using OpenMessage.Providers.Azure.Serialization;
+using OpenMessage.Providers.Azure.ServiceBus.Serialization;
 using System;
 using System.IO;
 using System.Linq;

@@ -1,7 +1,8 @@
-﻿using FluentAssertions;
+﻿using System.Linq;
+using FluentAssertions;
 using Microsoft.Extensions.DependencyInjection;
-using OpenMessage.Providers.Azure.Serialization;
-using System.Linq;
+using OpenMessage.Providers.Azure.ServiceBus;
+using OpenMessage.Providers.Azure.ServiceBus.Serialization;
 using Xunit;
 
 namespace OpenMessage.Providers.Azure.Tests
