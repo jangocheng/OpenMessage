@@ -8,7 +8,7 @@ namespace OpenMessage.Providers.Azure.EventHub.Dispatchers
     {
         private readonly IEventClient<T> _client;
 
-        public EventDispatcher(IEventFactory<T> eventFactory)
+        public EventDispatcher(IEventClientFactory<T> eventFactory)
         {
             if (eventFactory == null)
                 throw new ArgumentNullException(nameof(eventFactory));
