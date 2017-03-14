@@ -1,7 +1,7 @@
 ﻿using System;
 using System.Linq;
 
-namespace OpenMessage.Providers.Azure.ServiceBus
+namespace OpenMessage.Providers.Azure
 {
     internal static class TypeNameExtensions
     {
