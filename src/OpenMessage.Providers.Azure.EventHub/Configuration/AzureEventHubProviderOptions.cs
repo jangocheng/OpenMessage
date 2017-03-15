@@ -11,4 +11,8 @@
         /// </summary>
         public string EntityPath { get; set; }
     }
+
+    public class AzureEventHubProviderOptions<T> : AzureEventHubProviderOptions
+    {
+    }
 }
